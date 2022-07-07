@@ -1,0 +1,124 @@
+/* pages/protect/protect.wxss */
+.protect{
+  padding: 0 45rpx 0 45rpx;
+  background:-webkit-linear-gradient(#fff,#F6F8F9);
+ 
+}
+.protect2{
+  padding: 0 45rpx 0 45rpx;
+  background: #F6F8F9;
+  /* margin-top: 20rpx; */
+}
+.bigTitle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.logo{
+  font-size: 80rpx;
+  font-weight:200;
+}
+.txt{
+  margin-top: 10rpx;
+  font-size: 40rpx;
+  font-weight: 100;
+}
+.fuwu{
+  margin-top: 20rpx;
+  background-color: #fff;
+}
+.fuwuCard{
+  display: flex;
+  margin-top: 20rpx;
+  justify-content: space-around;
+  padding: 0 15rpx 15rpx 15rpx;
+}
+.xi{
+  margin-left:36rpx;
+}
+
+.addCard{
+  height: 200rpx;
+  margin: 10rpx;
+  flex: 1;
+  background-color: #F6F8F9;
+}
+.smallTitle{
+  margin-top:40rpx;
+  display: flex;
+  justify-content: space-around;
+  height: 80rpx;
+  align-items: center;
+  background-color: #F6F8F9;
+}
+
+.smallTxt{
+  font-size: 12px;
+  font-weight: 100;
+  position: relative;
+  top: -1px;
+}
+.sel{
+  margin-top: 30rpx;
+  display: flex;
+  height: 400rpx;
+  justify-content: space-between;
+}
+.leftSel{
+  width: 42%;
+  height: 100%;
+  background-color:#606DFF;  
+}
+.rightSel{
+width: 55%;
+height: 100%;
+flex-direction: column;
+justify-content:space-between;
+}
+.rightTop{
+  width: 100%;
+  height: 48%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.topLeft{
+  width: 48%;
+  /* margin: 10rpx; */
+  height: 100%;
+  background-color:#478BFC;
+}
+.topRight{
+  width: 48%;
+  /* margin: 10rpx; */
+  height: 100%;
+  background-color: #478BFC;
+}
+.rightBottom{
+  margin-top: 4%;
+  width: 100%;
+  height: 48%;
+  background-color: #00B1FF;
+}
+.number{
+  margin-top: 30rpx;
+  width: 100%;
+  height: 80rpx;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  /* background-color: red; */
+}
+.num{
+  font-weight: 600;
+}
+.step{
+  background-color: #fff;
+  margin-top: 30rpx;
+  padding: 10rpx;
+}
+.TitleStep{
+  font-weight: 600;
+  font-size: 40rpx;
+}

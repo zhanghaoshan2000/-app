@@ -1,0 +1,52 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/login/login",
+    "pages/logs/logs",
+    "pages/real/real",
+    "pages/protect/protect",
+    "pages/my/my"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "得物App",
+    "navigationBarTextStyle":"black"
+  },
+  "usingComponents": {
+    "t-icon": "tdesign-miniprogram/icon/icon"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor": "#8C46AA",
+    "color": "black",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "购物",
+        "iconPath": "common/image/index.png",
+        "selectedIconPath": "common/image/indexs.png"
+      },
+      {
+        "pagePath": "pages/real/real",
+        "text": "鉴别",
+        "iconPath": "common/image/protect.png",
+        "selectedIconPath": "common/image/protects.png"
+      },
+      {
+        "pagePath": "pages/protect/protect",
+        "text": "洗护",
+        "iconPath": "common/image/xihu.png",
+        "selectedIconPath": "common/image/xihus.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "common/image/my.png",
+        "selectedIconPath": "common/image/mys.png"
+      }
+    ]
+  }
+}

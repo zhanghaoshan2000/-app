@@ -1,0 +1,100 @@
+<!--pages/protect/protect.wxml-->
+<view>
+<view class="protect"> 
+    <!-- 头部 -->
+    <view>
+            <t-navbar
+        title=""
+        leftIcon="chevron-left"
+        homeIcon="view-list"
+        bindgohome="onGoHome"
+        t-class-left-icon="left-icon-back"
+        t-class-home-icon="home-icon"
+        t-class-title="nav-title"
+        />
+    </view>
+    <!-- 大标题 -->
+    <view class="bigTitle">
+        <text class="logo">焕然洗护</text>
+        <text class="txt">-专业洗护 潮人智选-</text>
+    </view>
+    <!-- 小标题 -->
+    <view class="smallTitle">
+    <text>
+      <text class="iconfont icon-keaide" style="font-size: 36rpx;"></text>
+      <text class="smallTxt">手工洗护</text>
+    </text>
+    <text>
+      <text class="iconfont icon-jiandingzhengshu"  style="font-size: 36rpx;"></text>
+      <text class="smallTxt">全程监控</text>
+    </text>
+    <text>
+      <text class="iconfont icon-gongxu"  style="font-size: 36rpx;"></text>
+      <text class="smallTxt">工序严格</text>
+    </text>
+    <text>
+      <text class="iconfont icon-zuanshi"  style="font-size: 36rpx;"></text>
+      <text class="smallTxt">洗坏赔付</text>
+    </text>
+    </view>
+    <!-- 选则 -->
+    <view class="sel">
+      <view class="leftSel">
+
+      </view>
+      <view class="rightSel">
+        <view class="rightTop">
+        <view class="topLeft">1</view>
+        <view class="topRight">1</view>
+        </view>
+        <view class="rightBottom"></view>
+      </view>
+
+    </view>
+  </view>
+  <view class="line"></view>
+  <view class="protect2">
+    <!-- 数目 -->
+    <view class="number">
+      <text class="xi">累计清洗</text>
+      <text class="num">8888,5</text>
+      <text>件</text>
+    </view>
+    <view class="line"></view>
+    <!-- 服务 -->
+    <view class="fuwu">
+      <t-cell title="增值服务" hover note="更多"  arrow/>
+      <view class="fuwuCard">
+          <view class="addCard"></view>
+          <view class="addCard"></view>
+          <view class="addCard"></view>
+      </view>
+    </view>
+    <!-- 洗护流程 -->
+    <view class="step">
+      <view class="TitleStep">
+      洗护流程
+      </view>
+      <view class="steps">
+        <view>
+          <text class="iconfont icon-xiadan"></text>
+          <text class="">在线下单</text>
+        </view>
+        <view>
+          <text class="iconfont icon-red-chongwuxihu"></text>
+          <text class="">进厂洗护</text>
+        </view>
+        <view>
+          <text class="iconfont icon-jiandingzhengshu"></text>
+          <text class="">质检出厂</text>
+        </view>
+        <view>
+          <text class="iconfont icon-31daishouhuo"></text>
+          <text class="">配送到家</text>
+        </view>
+      </view>
+    </view>
+    <!-- 页脚 -->
+    <view></view>
+</view>
+</view>

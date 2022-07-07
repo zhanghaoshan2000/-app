@@ -1,0 +1,61 @@
+<view class="my-content">
+  <view class="avator">
+  <view class="avator-content">
+    <view class="avator-img">
+      <t-avatar icon="user" />
+    </view>
+    <text class="">请登录 / 注册</text>
+  </view>
+  </view>
+  <view class="line"></view>
+  <view class="buy">
+  <t-cell title="购买" hover note="全部订单" arrow>
+    <t-icon name="calendar" slot="left-icon" />
+  </t-cell>
+  <view class="buy-thing">
+    <view class="thing">
+    <text class="iconfont icon-fukuan" style="font-size: 30px; font-weight: 500;"></text>
+    <text class="thingText">待付款</text>
+    </view>
+    <view class="thing">
+      <text class="iconfont icon-baoguo_fahuo_o" style="font-size: 30px; font-weight: 500;"></text>
+    <text class="thingText">待发货</text>
+    </view>
+    <view class="thing">
+      <text class="iconfont icon-31daishouhuo" style="font-size: 30px; font-weight: 500;"></text>
+    <text class="thingText">待收货</text>
+    </view>
+  </view>
+  </view>
+  <t-divider></t-divider>
+  <view class="person-my">
+    <t-cell title="我的收藏" hover note="" arrow>
+    <text slot="left-icon" class="iconfont icon-icon_fabu"></text>
+    </t-cell>
+    <t-cell title="我的订阅" hover note="" arrow>
+      <text slot="left-icon" class="iconfont icon-jiandingzhengshu"></text>
+    </t-cell>
+    <t-cell title="账户" hover note="" arrow>
+      <text slot="left-icon" class="iconfont icon-goumai"></text>
+    </t-cell>
+    <t-cell title="卡劵" hover note="" arrow>
+      <text slot="left-icon" class="iconfont icon-youhuiquan"></text>
+    </t-cell>
+    <t-cell title="地址管理" hover note="" arrow>
+      <text slot="left-icon" class="iconfont icon-shouhuodizhi"></text>
+    </t-cell>
+    <t-cell title="消息通知" hover note="" arrow>
+      <text slot="left-icon" class="iconfont icon-xiaoxitongzhi"></text>
+    </t-cell>
+    <t-cell title="客服中心" hover note="" arrow>
+      <text slot="left-icon" class="iconfont icon-jiankong"></text>
+    </t-cell>
+    <t-cell title="隐私条款" hover note="" arrow>
+      <text slot="left-icon" class="iconfont icon-anquanyinsi"></text>
+    </t-cell>
+    <view class="line"></view>
+    <!-- <view class="btn">
+      退出登录
+    </view> -->
+  </view>
+</view>

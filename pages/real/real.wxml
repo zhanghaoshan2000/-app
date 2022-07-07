@@ -1,0 +1,67 @@
+<!--pages/real/real.wxml-->
+<view class="real-content">
+  <view class="card">
+    <view class="title">
+      <view class="title-name">
+      鉴别服务开创者
+      <text style="font-size: 10px; font-weight: 100; letter-spacing: 0;">九大品类 专业鉴别 快速准确</text>
+      </view>
+    </view>
+    <view class="card-content">
+      <view class="title-card">累计鉴别超过</view>
+      <view class="card-number">259,507,438</view>
+      <view class="card-step">
+      <text class="iconfont icon-paizhao"><text class="iconText">拍照</text></text>
+      <text class="iconfont icon-icon_fabu"><text class="iconText">发布</text></text>
+      <text class="iconfont icon-anquanyinsi"><text class="iconText">结果</text></text>
+      </view>
+      <view class="card-btn">
+        <view class="btn-b">实物鉴别</view>
+        <view class="btn-g">在线鉴别</view>
+      </view>
+    </view>
+  </view>
+  <view class="idf">
+    <view class="idfIcon">
+    <text class="iconfont icon-wj-jdws"></text>
+    <text class="idfTetx">我的鉴别</text>
+    </view>
+    <view class="idfIcon">
+      <text class="iconfont icon-youhuiquan"></text>
+    <text class="idfTetx">鉴别卷</text>
+    </view>
+  </view>
+  <view class="teacher">
+    <view class="teacher-title">
+      在线鉴别师 (414位)
+    </view>
+    <view class="TeacherCard">
+    <view  class="teacher-card">
+      <t-avatar shape="circle" image="{{image}}" />
+      <text class="CardName">Parget_蔡徐坤</text>
+      <text class="CardName">球鞋鉴别:</text>
+      <text class="CardName"></text>
+      <text class="CardName">累计鉴别</text>
+      <text class="CardName"></text>
+    </view>
+    <view  class="teacher-card"></view>
+    <view  class="teacher-card"></view>
+    </view>
+  </view>
+  <view class="question"> 
+    <view class="teacher-title">
+      <t-cell title="鉴别答疑" hover arrow hover note="更多"/>
+    </view>
+    <view class="quesContent">
+     <view class="quText">
+        <view class="qusTitle"> 
+          <text class="iconfont icon-wenda"></text>
+          <text class="qusTitles">如何发布快速鉴别？ 需要哪个步骤</text>
+        </view>
+        <view class="qscontent">
+          <text class="">收拾收洒水车撒村撒村收拾收洒水车撒村撒村收拾收洒水车撒村撒村收拾收洒水车撒村撒村收拾收洒水车撒村撒村收拾收洒水车撒村撒村收拾收洒水车撒村撒村</text>
+        </view>
+     </view>
+    </view>
+  </view>
+</view>

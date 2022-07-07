@@ -1,0 +1,163 @@
+/* pages/real/real.wxss */
+.real-content{
+  padding: 45rpx;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 520rpx;
+  background-color:#353548;
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.title{
+  display: flex;
+  padding: 10px;
+}
+.title-name{
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.title-content{
+  font-size: 12px;
+}
+.card-content{
+  padding: 15px;
+  width: 100%;
+  background-color: #fff;
+  height: 410rpx;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title-card{
+  font-size: 14px;
+  margin-top: 7px;
+}
+.card-number{
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+.card-step{
+    width: 100%;
+    margin-top: 30rpx;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.iconText{
+  margin-left: 5px;
+  font-size: 12px;
+  position: relative;
+  top: -2px;
+}
+.card-btn{
+  margin-top: 40rpx;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.btn-g{
+  width: 60%;
+  height: 42px;
+  background-color: #00CBCC;
+  font-weight: 100;
+  color: #fff;
+  line-height: 42px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.btn-b{
+  width: 35%;
+  height: 42px;
+  font-weight: 100;
+  background-color: #353548;
+  color: #fff;
+  line-height: 42px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 14px;
+}
+.idf{
+  display: flex;
+  margin-top: 20rpx;
+  justify-content: space-between;
+}
+.idfIcon{
+  width: 48%;
+  background-color:#F4F3F8;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+.icon-wj-jdws{
+  font-size: 25px;
+}
+.icon-youhuiquan{
+  font-size: 25px;
+}
+.idfTetx{
+  position: relative;
+  top: -2px;
+  margin-left: 5px;
+}
+.teacher{
+  margin-top: 70rpx;
+}
+.teacher-title{
+  font-size: 18px;
+  font-weight: 600;
+}
+.TeacherCard{
+  display: flex;
+  margin-top: 20px;
+}
+.teacher-card{
+  display: flex;
+  align-items: center;
+  padding: 15px 5px 15px 5px;
+  flex-direction: column;
+  width: 110px;
+  background-color: #F5F4F8;
+  height: 170px;
+  margin: 0 10px 0 10px;
+  font-weight: 200;
+  font-size: 14px;
+}
+.CardName{
+  margin-top: 14rpx;
+}
+.question{
+  margin-top: 40rpx;
+}
+.qusTitle{
+  margin-top: 30rpx;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.icon-wenda{
+  color: #00CBCC;
+  font-size: 60rpx;
+  margin-right: 20rpx;
+}
+.qusTitles{
+  font-size: 14px;
+  font-weight: 600;
+}
+.qscontent{
+  font-size: 14px;
+  margin-left:100rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  letter-spacing: 1px;
+}
